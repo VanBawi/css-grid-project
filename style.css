@@ -1,6 +1,6 @@
 .zone {
     padding:30px 50px;
-    margin:40px 60px;
+    /* margin:40px 60px; */
     cursor:pointer;
     color:#FFF;
     font-size:2em;
@@ -13,16 +13,21 @@
     
 }
 .green{
-    grid-template-rows: 10% 10% 10% auto;
-    grid-row:auto;
+
+}
+.green li{
+    list-style-type: none;
+    display: inline-block;
 }
 .red{
-    grid-column:span 1;
-    grid-row:1;
-    grid-gap:10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:400px;
     
 }
 div.containerimage{
+    display:grid;
     width:200px;
     height:200px;
 }
