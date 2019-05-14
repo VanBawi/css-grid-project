@@ -28,8 +28,7 @@
 }
 div.containerimage{
     display:grid;
-    width:200px;
-    height:200px;
+    
 }
 .zone.blue{
     grid-template-rows: 200px;
